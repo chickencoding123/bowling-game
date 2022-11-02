@@ -1,0 +1,37 @@
+{
+  "name": "bowling-game",
+  "version": "1.0.0",
+  "description": "A bowling game using [Babylon.js](https://www.babylonjs.com) 3D engine.",
+  "main": "./src/game/index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.ts --fix"
+  },
+  "author": "chickencoding123",
+  "license": "MIT",
+  "devDependencies": {
+    "@babylonjs/inspector": "^5.30.0",
+    "@parcel/transformer-glsl": "^2.7.0",
+    "@types/jest": "^29.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.2.2",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^5.30.0",
+    "@babylonjs/loaders": "^5.30.0",
+    "@babylonjs/materials": "^5.30.0",
+    "@babylonjs/procedural-textures": "^5.30.0",
+    "mobx": "^6.6.2"
+  }
+}
